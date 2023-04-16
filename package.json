@@ -1,0 +1,16 @@
+{
+  "name": "dethz-11ty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dethMastery/dethz-11ty.git",
+  "author": "dethMastery <me@suphakit.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "dev": "pnpm build && pnpm serve"
+  }
+}
